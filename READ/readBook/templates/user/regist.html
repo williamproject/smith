@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div>
+        <h4 class="text-center" >注册页面</h4>
+        <form class="form form-horizontal" action="/user/regist/" method="post">
+            {% csrf_token %}
+            <div class="form-group">
+
+                <div class="col-xs-6">
+                    <label class="col-xs-3　text-right　alignLine">账号</label>
+                    <input type="text" class="form-control " name="username" value="{{ form.username.value }}">
+                </div>
+                <div class="col-xs-3 ">
+                    {% if errors.username %}
+                    <span style="color: red">{{ errors.username.0.message }}</span>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="form-group">
+
+                <div class="col-xs-6">
+                    <label class="col-xs-3　text-right algnLabel">密码</label>
+                    <input type='password' class="form-control" name="password">
+                </div>
+                <div class="col-xs-3 text-center">
+                    {% if errors.password %}
+                    <span style="color: red">{{ errors.password.0.message }}</span>
+                    {% endif %}
+                </div>
+
+            </div>
+            <div class="form-group">
+
+                <div class="col-xs-6">
+                    <label class="col-xs-3　text-left　alignLine">用户名</label>
+                    <input type="text" class="form-control " name="nickName" value="{{ form.nickName.value }}">
+                </div>
+                <div class="col-xs-3 text-center">
+                    {% if errors.nickName %}
+                    <span style="color: red">{{ errors.nickName.0.message }}</span>
+                    {% endif %}
+                </div>
+            </div>
+         <div class="form-group">
+
+                <div class="col-xs-6">
+                    <label class="col-xs-3　text-right　alignLine">邮箱</label>
+                    <input type="email" class="form-control " name="email" value="{{ form.email.value }}">
+                </div>
+                <div class="col-xs-3 text-center">
+                    {% if errors.email %}
+                        <span style="color: red">{{ errors.email.0.message }}</span>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="form-group">
+
+                <div class="col-xs-6">
+                    <label class="col-xs-3　text-left　alignLine">头像</label>
+                    <input type="hidden" id="photo" name="photo">
+                    <img id="preimg" src="/static/media/img/8a56256cd31d4300bf7622cf831ff855.jpeg" width="100" height="100"
+                    onclick="sFiel.click()" >
+                </div>
+                <div class="col-xs-3 text-center">
+                    {% if errors.nickname %}
+                    <span style="color: red">{{ errors.nickname.0.message }}</span>
+                    {% endif %}
+                </div>
+            </div>
+
+            <div class="form-group ">
+                <button  class="btn btn-primary text-center">注册</button>
+                <a href="/user/login/">已经注册过了,请登录</a>
+            </div>
+        </form>
+    </div>
+    <input type="file" id="sFiel"
+           style="display: none"
+    onchange="uploadFile(this.files[0])" >
+
+{% endblock %}
+{%  block js %}
+    <script>
+        //ajax文件上传
+        function uploadFile(file){
+            var request = new XMLHttpRequest();
+            request.open('post', '/user/upload/', true);
+            request.onload = function (ev) {
+                if (request.status == 200 &&
+                    request.readyState == 4) {
+
+
+                    //上传成功，显示图片
+
+                    data = JSON.parse(request.responseText); //json中要用双引号{'path': 'user/xxx.jpg','code':200}
+                    alert(data);
+                    $('#preimg').attr('src', '/static/media/'+data.path);
+                    alert(data.path);
+                    $('#photo').val(data.path);
+                }
+
+            };
+            // 发送请求
+            var formdata = new FormData();
+            formdata.append('photo', file);
+            request.send(formdata);
+        }
+    </script>
+{% endblock %}

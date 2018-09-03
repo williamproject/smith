@@ -1,0 +1,15 @@
+#category ul{
+    background-color: #00b7ee;
+}
+#category ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#category li{
+    float: left;
+    padding: 2px;
+}
+#novel{
+    float: left;
+}

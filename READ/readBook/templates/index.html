@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div id="category" class="float-left">
+        <div>
+        <ul>
+            <li><a href="/index/" class="btn {% if p_cate %}btn-success{% else %}btn-danger{% endif %}"><span
+                    class="glyphicon glyphicon-tags"
+                    style="padding-right: 5px"></span>所有</a></li>
+            {% for cate in cates %}
+                <li><a href="/index/?p_cate={{ cate.id }}"
+                       class="btn {% if p_cate == cate.id %}btn-danger{% else %}btn-success{% endif %}">{{ cate.title }}</a>
+                </li>
+            {% endfor %}
+
+        </ul>
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-xs-6" id="novel">
+        <ul>
+            {% for art in novels_page %}
+
+                <li>
+                    <dl>
+                        <dt>
+                            <img src="{{ art.icon.url }}" width="120" height="140">
+                        </dt>
+                        <dd>{{ art.n_title }}</dd>
+                        <dd>作者：{{ art.author }}</dd>
+                        <p class="text-center">
+                        <dd class="btn btn-primary"><a href="/art/show/{{ art.id }}">阅读</a></dd>
+                        </p>
+                    </dl>
+                </li>
+
+            {% endfor %}
+        </ul>
+    </div>
+    </div>
+    <div class="clearfix"></div>
+    <div>
+        <nav aria-label="Page navigation">
+            <ul class="pagination">
+                <li>
+                    <a {% if novels_page.has_previous %}
+                        href="/index/?page={{ novels_page.previous_page_number }}&p_cate={{ p_cate }}" {% endif %}
+                        aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                {% for page in paginator.page_range %}
+                    <li><a {% if novels_page.number == page %} {% endif %}
+                            href="/index/?page={{ page }}&p_cate={{ p_cate }}">{{ page }} </a></li>
+                {% endfor %}
+                <li>
+                    <a {% if novels_page.has_next %} href="/index/?page={{ novels_page.next_page_number }}&p_cate={{ p_cate }}" {% endif %}
+                                                     aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+{% endblock %}

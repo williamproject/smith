@@ -1,0 +1,217 @@
+2018-09-03 20:42:08,582 WARN Included extra file "/etc/supervisor/conf.d/read.conf" during parsing
+2018-09-03 20:42:08,639 INFO RPC interface 'supervisor' initialized
+2018-09-03 20:42:08,639 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-09-03 20:42:08,640 INFO daemonizing the supervisord process
+2018-09-03 20:42:08,665 INFO supervisord started with pid 33073
+2018-09-03 20:42:09,669 INFO spawned: 'art1' with pid 33074
+2018-09-03 20:42:09,671 INFO spawned: 'art3' with pid 33075
+2018-09-03 20:42:09,674 INFO spawned: 'art2' with pid 33076
+2018-09-03 20:42:09,723 INFO spawned: 'art5' with pid 33077
+2018-09-03 20:42:09,726 INFO spawned: 'art4' with pid 33078
+2018-09-03 20:42:10,246 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 20:42:10,252 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 20:42:10,347 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 20:42:10,359 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 20:42:10,370 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 20:42:11,373 INFO spawned: 'art1' with pid 33079
+2018-09-03 20:42:11,376 INFO spawned: 'art3' with pid 33080
+2018-09-03 20:42:11,417 INFO spawned: 'art2' with pid 33081
+2018-09-03 20:42:11,420 INFO spawned: 'art5' with pid 33082
+2018-09-03 20:42:11,422 INFO spawned: 'art4' with pid 33083
+2018-09-03 20:42:11,833 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 20:42:11,855 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 20:42:11,904 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 20:42:11,916 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 20:42:11,956 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 20:42:13,961 INFO spawned: 'art1' with pid 33084
+2018-09-03 20:42:13,964 INFO spawned: 'art3' with pid 33085
+2018-09-03 20:42:13,967 INFO spawned: 'art2' with pid 33086
+2018-09-03 20:42:13,970 INFO spawned: 'art5' with pid 33087
+2018-09-03 20:42:13,973 INFO spawned: 'art4' with pid 33088
+2018-09-03 20:42:14,438 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 20:42:14,460 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 20:42:14,523 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 20:42:14,532 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 20:42:14,617 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 20:42:17,623 INFO spawned: 'art1' with pid 33089
+2018-09-03 20:42:17,625 INFO spawned: 'art3' with pid 33090
+2018-09-03 20:42:17,628 INFO spawned: 'art2' with pid 33091
+2018-09-03 20:42:17,631 INFO spawned: 'art5' with pid 33092
+2018-09-03 20:42:17,634 INFO spawned: 'art4' with pid 33093
+2018-09-03 20:42:18,082 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 20:42:18,109 INFO gave up: art2 entered FATAL state, too many start retries too quickly
+2018-09-03 20:42:18,109 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 20:42:18,130 INFO gave up: art3 entered FATAL state, too many start retries too quickly
+2018-09-03 20:42:18,130 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 20:42:18,167 INFO gave up: art1 entered FATAL state, too many start retries too quickly
+2018-09-03 20:42:18,215 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 20:42:18,244 INFO gave up: art4 entered FATAL state, too many start retries too quickly
+2018-09-03 20:42:18,244 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 20:42:19,246 INFO gave up: art5 entered FATAL state, too many start retries too quickly
+2018-09-03 20:43:57,632 WARN Included extra file "/etc/supervisor/conf.d/read.conf" during parsing
+2018-09-03 20:46:31,029 WARN Included extra file "/etc/supervisor/conf.d/read.conf" during parsing
+2018-09-03 20:52:37,189 WARN Included extra file "/etc/supervisor/conf.d/read.conf" during parsing
+2018-09-03 20:52:37,504 INFO RPC interface 'supervisor' initialized
+2018-09-03 20:52:37,505 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-09-03 20:52:37,505 INFO supervisord started with pid 33148
+2018-09-03 20:52:38,509 INFO spawned: 'art1' with pid 33151
+2018-09-03 20:52:38,559 INFO spawned: 'art3' with pid 33152
+2018-09-03 20:52:38,571 INFO spawned: 'art2' with pid 33153
+2018-09-03 20:52:38,574 INFO spawned: 'art5' with pid 33154
+2018-09-03 20:52:38,577 INFO spawned: 'art4' with pid 33155
+2018-09-03 20:52:39,581 INFO success: art1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-03 20:52:39,582 INFO success: art3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-03 20:52:39,582 INFO success: art2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-03 20:52:39,582 INFO success: art5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-03 20:52:39,582 INFO success: art4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-09-03 20:52:40,461 INFO exited: art1 (exit status 2; expected)
+2018-09-03 20:52:40,483 INFO spawned: 'art1' with pid 33161
+2018-09-03 20:52:40,557 INFO exited: art5 (exit status 2; expected)
+2018-09-03 20:52:40,593 INFO spawned: 'art5' with pid 33162
+2018-09-03 20:52:40,615 INFO exited: art3 (exit status 2; expected)
+2018-09-03 20:52:40,663 INFO spawned: 'art3' with pid 33165
+2018-09-03 20:52:40,664 INFO exited: art2 (exit status 2; expected)
+2018-09-03 20:52:40,688 INFO spawned: 'art2' with pid 33166
+2018-09-03 20:52:40,768 INFO exited: art4 (exit status 2; expected)
+2018-09-03 20:52:40,950 INFO spawned: 'art4' with pid 33167
+2018-09-03 20:52:41,002 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 20:52:41,067 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 20:52:41,122 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 20:52:41,206 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 20:52:41,312 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 20:52:42,316 INFO spawned: 'art1' with pid 33168
+2018-09-03 20:52:42,318 INFO spawned: 'art3' with pid 33169
+2018-09-03 20:52:42,321 INFO spawned: 'art2' with pid 33170
+2018-09-03 20:52:42,324 INFO spawned: 'art5' with pid 33171
+2018-09-03 20:52:42,327 INFO spawned: 'art4' with pid 33172
+2018-09-03 20:52:42,794 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 20:52:42,872 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 20:52:42,894 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 20:52:42,935 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 20:52:42,963 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 20:52:44,967 INFO spawned: 'art1' with pid 33173
+2018-09-03 20:52:44,970 INFO spawned: 'art3' with pid 33174
+2018-09-03 20:52:44,972 INFO spawned: 'art2' with pid 33175
+2018-09-03 20:52:44,975 INFO spawned: 'art5' with pid 33176
+2018-09-03 20:52:44,978 INFO spawned: 'art4' with pid 33177
+2018-09-03 20:52:45,383 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 20:52:45,430 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 20:52:45,469 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 20:52:45,525 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 20:52:45,547 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 20:52:48,555 INFO spawned: 'art1' with pid 33181
+2018-09-03 20:52:48,558 INFO spawned: 'art3' with pid 33182
+2018-09-03 20:52:48,562 INFO spawned: 'art2' with pid 33183
+2018-09-03 20:52:48,565 INFO spawned: 'art5' with pid 33184
+2018-09-03 20:52:48,571 INFO spawned: 'art4' with pid 33185
+2018-09-03 20:52:49,066 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 20:52:49,102 INFO gave up: art1 entered FATAL state, too many start retries too quickly
+2018-09-03 20:52:49,169 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 20:52:49,209 INFO gave up: art4 entered FATAL state, too many start retries too quickly
+2018-09-03 20:52:49,238 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 20:52:49,264 INFO gave up: art5 entered FATAL state, too many start retries too quickly
+2018-09-03 20:52:49,264 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 20:52:49,289 INFO gave up: art2 entered FATAL state, too many start retries too quickly
+2018-09-03 20:52:49,289 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 20:52:50,291 INFO gave up: art3 entered FATAL state, too many start retries too quickly
+2018-09-03 20:54:47,722 WARN received SIGINT indicating exit request
+2018-09-03 20:57:39,227 WARN Included extra file "/etc/supervisor/conf.d/read.conf" during parsing
+2018-09-03 20:57:39,241 INFO RPC interface 'supervisor' initialized
+2018-09-03 20:57:39,241 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-09-03 20:57:39,241 INFO supervisord started with pid 33254
+2018-09-03 20:57:40,244 INFO spawned: 'art1' with pid 33257
+2018-09-03 20:57:40,246 INFO spawned: 'art3' with pid 33258
+2018-09-03 20:57:40,249 INFO spawned: 'art2' with pid 33259
+2018-09-03 20:57:40,252 INFO spawned: 'art5' with pid 33260
+2018-09-03 20:57:40,255 INFO spawned: 'art4' with pid 33261
+2018-09-03 20:57:40,760 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 20:57:40,792 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 20:57:40,805 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 20:57:40,814 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 20:57:40,869 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 20:57:41,872 INFO spawned: 'art1' with pid 33262
+2018-09-03 20:57:41,874 INFO spawned: 'art3' with pid 33263
+2018-09-03 20:57:41,877 INFO spawned: 'art2' with pid 33264
+2018-09-03 20:57:41,880 INFO spawned: 'art5' with pid 33265
+2018-09-03 20:57:41,886 INFO spawned: 'art4' with pid 33266
+2018-09-03 20:57:42,466 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 20:57:42,512 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 20:57:42,531 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 20:57:42,532 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 20:57:42,705 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 20:57:44,709 INFO spawned: 'art1' with pid 33275
+2018-09-03 20:57:44,712 INFO spawned: 'art3' with pid 33276
+2018-09-03 20:57:44,715 INFO spawned: 'art2' with pid 33277
+2018-09-03 20:57:44,717 INFO spawned: 'art5' with pid 33278
+2018-09-03 20:57:44,720 INFO spawned: 'art4' with pid 33279
+2018-09-03 20:57:45,124 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 20:57:45,128 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 20:57:45,221 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 20:57:45,225 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 20:57:45,277 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 20:57:48,283 INFO spawned: 'art1' with pid 33281
+2018-09-03 20:57:48,285 INFO spawned: 'art3' with pid 33282
+2018-09-03 20:57:48,288 INFO spawned: 'art2' with pid 33283
+2018-09-03 20:57:48,291 INFO spawned: 'art5' with pid 33284
+2018-09-03 20:57:48,300 INFO spawned: 'art4' with pid 33285
+2018-09-03 20:57:48,752 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 20:57:48,762 INFO gave up: art1 entered FATAL state, too many start retries too quickly
+2018-09-03 20:57:48,821 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 20:57:48,822 INFO gave up: art3 entered FATAL state, too many start retries too quickly
+2018-09-03 20:57:48,822 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 20:57:48,882 INFO gave up: art4 entered FATAL state, too many start retries too quickly
+2018-09-03 20:57:48,959 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 20:57:48,970 INFO gave up: art5 entered FATAL state, too many start retries too quickly
+2018-09-03 20:57:48,971 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 20:57:49,972 INFO gave up: art2 entered FATAL state, too many start retries too quickly
+2018-09-03 21:11:05,724 WARN received SIGINT indicating exit request
+2018-09-03 21:11:09,167 WARN Included extra file "/etc/supervisor/conf.d/read.conf" during parsing
+2018-09-03 21:11:09,182 INFO RPC interface 'supervisor' initialized
+2018-09-03 21:11:09,182 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2018-09-03 21:11:09,182 INFO supervisord started with pid 49245
+2018-09-03 21:11:10,185 INFO spawned: 'art1' with pid 49248
+2018-09-03 21:11:10,189 INFO spawned: 'art3' with pid 49249
+2018-09-03 21:11:10,191 INFO spawned: 'art2' with pid 49250
+2018-09-03 21:11:10,195 INFO spawned: 'art5' with pid 49251
+2018-09-03 21:11:10,198 INFO spawned: 'art4' with pid 49252
+2018-09-03 21:11:10,687 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 21:11:10,692 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 21:11:10,796 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 21:11:10,813 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 21:11:10,848 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 21:11:11,852 INFO spawned: 'art1' with pid 49253
+2018-09-03 21:11:11,854 INFO spawned: 'art3' with pid 49254
+2018-09-03 21:11:11,857 INFO spawned: 'art2' with pid 49255
+2018-09-03 21:11:11,860 INFO spawned: 'art5' with pid 49256
+2018-09-03 21:11:11,863 INFO spawned: 'art4' with pid 49257
+2018-09-03 21:11:12,321 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 21:11:12,361 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 21:11:12,382 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 21:11:12,405 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 21:11:12,501 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 21:11:14,506 INFO spawned: 'art1' with pid 49264
+2018-09-03 21:11:14,509 INFO spawned: 'art3' with pid 49265
+2018-09-03 21:11:14,512 INFO spawned: 'art2' with pid 49266
+2018-09-03 21:11:14,516 INFO spawned: 'art5' with pid 49267
+2018-09-03 21:11:14,519 INFO spawned: 'art4' with pid 49268
+2018-09-03 21:11:15,090 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 21:11:15,136 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 21:11:15,165 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 21:11:15,246 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 21:11:15,274 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 21:11:18,281 INFO spawned: 'art1' with pid 49272
+2018-09-03 21:11:18,286 INFO spawned: 'art3' with pid 49273
+2018-09-03 21:11:18,295 INFO spawned: 'art2' with pid 49274
+2018-09-03 21:11:18,299 INFO spawned: 'art5' with pid 49275
+2018-09-03 21:11:18,303 INFO spawned: 'art4' with pid 49276
+2018-09-03 21:11:18,893 INFO exited: art4 (exit status 2; not expected)
+2018-09-03 21:11:18,903 INFO gave up: art4 entered FATAL state, too many start retries too quickly
+2018-09-03 21:11:18,903 INFO exited: art2 (exit status 2; not expected)
+2018-09-03 21:11:18,930 INFO gave up: art2 entered FATAL state, too many start retries too quickly
+2018-09-03 21:11:19,012 INFO exited: art1 (exit status 2; not expected)
+2018-09-03 21:11:19,015 INFO gave up: art1 entered FATAL state, too many start retries too quickly
+2018-09-03 21:11:19,015 INFO exited: art3 (exit status 2; not expected)
+2018-09-03 21:11:19,053 INFO gave up: art3 entered FATAL state, too many start retries too quickly
+2018-09-03 21:11:19,054 INFO exited: art5 (exit status 2; not expected)
+2018-09-03 21:11:20,057 INFO gave up: art5 entered FATAL state, too many start retries too quickly
+2018-09-03 21:13:54,400 WARN received SIGHUP indicating restart request
